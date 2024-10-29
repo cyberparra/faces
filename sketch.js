@@ -23,7 +23,7 @@ function setup() {
   rectMode(CENTER);
   faceMesh.detectStart(video, gotFaces);
   pul = createButton("Hide");
-  pul.position(width / 2, 50);
+  pul.position(50, 50);
   pul.mousePressed(setshow);
    pul2 = createButton("Show");
   pul2.position(width / 2, 50);
